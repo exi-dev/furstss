@@ -16,12 +16,29 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.fonditoPrincipal{
+  background-image: url("../../public/images/Rectangle.png");
+}
+.fonditoPrincipalChico{
+  
+}
+.fontpoppins-xs{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+.fontpoppins-s{
+  font-family: 'Poppins', sans-serif;
+  font-weight:300
+}
+.fontpoppins-m{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.fontpoppins-l{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.fontpoppins-xl{
+  font-family: 'Poppins', sans-serif;
+  font-weight:900 ;
 }
